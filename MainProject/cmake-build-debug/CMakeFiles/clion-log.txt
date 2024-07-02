@@ -1,0 +1,22 @@
+/snap/clion/198/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/198/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=gcc-11 -DCMAKE_CXX_COMPILER=g++-11 -G Ninja -S /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject -B /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-debug
+-- CMake variables:
+--     CMAKE_VERSION = 3.22.3
+--     CMAKE_ROOT = /snap/clion/198/bin/cmake/linux/share/cmake-3.22
+--     CMAKE_PROJECT_NAME = MainProject
+--     PROJECT_NAME = MainProject
+--     CMAKE_CACHEFILE_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-debug
+--     CMAKE_COMMAND = /snap/clion/198/bin/cmake/linux/bin/cmake
+--     CMAKE_BUILD_TOOL = /snap/clion/198/bin/ninja/linux/ninja
+--     CMAKE_SOURCE_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject
+--     CMAKE_BINARY_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-debug
+--     CMAKE_CURRENT_SOURCE_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject
+--     CMAKE_CURRENT_BINARY_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-debug
+--     PROJECT_BINARY_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-debug
+--     CMAKE_CURRENT_LIST_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject
+--     CMAKE_CURRENT_LIST_FILE = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/CMakeLists.txt
+--     PARENT_DIR = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/..
+--     Utilities = /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/../Utilities
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-debug

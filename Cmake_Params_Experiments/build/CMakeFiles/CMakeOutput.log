@@ -1,0 +1,409 @@
+The system is: Linux - 5.15.0-107-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-db2es6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50029/fast && /usr/bin/make  -f CMakeFiles/cmTC_50029.dir/build.make CMakeFiles/cmTC_50029.dir/build
+make[1]: Entering directory '/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-db2es6'
+Building C object CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o
+/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2   -v -o CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o -c /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2
+Target: x86_64-linux-gnu
+Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50029.dir/'
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_50029.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccEa6lzY.s
+GNU C17 (GCC) version 13.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 13.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include
+ /usr/local/include
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/include
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Compiler executable checksum: 8f5e835f96518b50fb21b44ec105c38d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50029.dir/'
+ as -v --64 -o CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o /tmp/ccEa6lzY.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_50029
+/home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50029.dir/link.txt --verbose=1
+/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2  -v CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o -o cmTC_50029 
+Using built-in specs.
+COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2
+COLLECT_LTO_WRAPPER=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (GCC) 
+COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50029' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50029.'
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/collect2 -plugin /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc15HRQr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_50029 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../.. CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50029' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50029.'
+make[1]: Leaving directory '/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-db2es6'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include]
+    add: [/usr/local/include]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include;/usr/local/include;/home/andtokm/DiskS/Utils/bin/gcc-13.2/include;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-db2es6]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_50029/fast && /usr/bin/make  -f CMakeFiles/cmTC_50029.dir/build.make CMakeFiles/cmTC_50029.dir/build]
+  ignore line: [make[1]: Entering directory '/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-db2es6']
+  ignore line: [Building C object CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2   -v -o CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o -c /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50029.dir/']
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_50029.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccEa6lzY.s]
+  ignore line: [GNU C17 (GCC) version 13.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/include]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 8f5e835f96518b50fb21b44ec105c38d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50029.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o /tmp/ccEa6lzY.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_50029]
+  ignore line: [/home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50029.dir/link.txt --verbose=1]
+  ignore line: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2  -v CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o -o cmTC_50029 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/gcc-13.2]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50029' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_50029.']
+  link line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/collect2 -plugin /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc15HRQr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_50029 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../.. CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc15HRQr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_50029] ==> ignore
+    arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o] ==> obj [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o]
+    arg [-L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0] ==> dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0]
+    arg [-L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64] ==> dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../..] ==> dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../..]
+    arg [CMakeFiles/cmTC_50029.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o] ==> obj [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0]
+  collapse library dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../..] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-OJzZp6
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0e91/fast && /usr/bin/make  -f CMakeFiles/cmTC_a0e91.dir/build.make CMakeFiles/cmTC_a0e91.dir/build
+make[1]: Entering directory '/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-OJzZp6'
+Building CXX object CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o
+/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2   -v -o CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o -c /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2
+Target: x86_64-linux-gnu
+Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a0e91.dir/'
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a0e91.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cchg8Ct7.s
+GNU C++17 (GCC) version 13.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 13.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-linux-gnu
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include
+ /usr/local/include
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/include
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Compiler executable checksum: d05fc858cb1cfe6a71ec999390b79745
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a0e91.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchg8Ct7.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_a0e91
+/home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0e91.dir/link.txt --verbose=1
+/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2  -v CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a0e91 
+Using built-in specs.
+COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2
+COLLECT_LTO_WRAPPER=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (GCC) 
+COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0e91' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a0e91.'
+ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/collect2 -plugin /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4ulWLy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a0e91 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../.. CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0e91' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a0e91.'
+make[1]: Leaving directory '/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-OJzZp6'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-linux-gnu]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include]
+    add: [/usr/local/include]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu]
+    add: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include/c++/13.2.0]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-linux-gnu] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include/c++/13.2.0/x86_64-linux-gnu]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include/c++/13.2.0/backward]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu]
+  collapse include dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/include/c++/13.2.0;/home/andtokm/DiskS/Utils/bin/gcc-13.2/include/c++/13.2.0/x86_64-linux-gnu;/home/andtokm/DiskS/Utils/bin/gcc-13.2/include/c++/13.2.0/backward;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include;/usr/local/include;/home/andtokm/DiskS/Utils/bin/gcc-13.2/include;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-OJzZp6]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0e91/fast && /usr/bin/make  -f CMakeFiles/cmTC_a0e91.dir/build.make CMakeFiles/cmTC_a0e91.dir/build]
+  ignore line: [make[1]: Entering directory '/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Cmake_Params_Experiments/build/CMakeFiles/CMakeScratch/TryCompile-OJzZp6']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2   -v -o CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o -c /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a0e91.dir/']
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a0e91.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cchg8Ct7.s]
+  ignore line: [GNU C++17 (GCC) version 13.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/x86_64-linux-gnu]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../include/c++/13.2.0/backward]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/include]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu]
+  ignore line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: d05fc858cb1cfe6a71ec999390b79745]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a0e91.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o /tmp/cchg8Ct7.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_a0e91]
+  ignore line: [/home/andtokm/DiskS/Utils/cmake/cmake-3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0e91.dir/link.txt --verbose=1]
+  ignore line: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2  -v CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a0e91 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/andtokm/DiskS/Utils/bin/gcc-13.2/bin/g++-13.2]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../configure -v --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --prefix=/home/andtokm/DiskS/Utils/bin/gcc-13.2 --disable-multilib --program-suffix=-13.2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0e91' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a0e91.']
+  link line: [ /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/collect2 -plugin /home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4ulWLy.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a0e91 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../.. CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/andtokm/DiskS/Utils/bin/gcc-13.2/libexec/gcc/x86_64-linux-gnu/13.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4ulWLy.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a0e91] ==> ignore
+    arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o] ==> obj [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o]
+    arg [-L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0] ==> dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0]
+    arg [-L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64] ==> dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../..] ==> dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../..]
+    arg [CMakeFiles/cmTC_a0e91.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o] ==> obj [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0]
+  collapse library dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../../../lib64] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/../../..] ==> [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtbegin.o;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib/gcc/x86_64-linux-gnu/13.2.0;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/home/andtokm/DiskS/Utils/bin/gcc-13.2/lib]
+  implicit fwks: []
+
+

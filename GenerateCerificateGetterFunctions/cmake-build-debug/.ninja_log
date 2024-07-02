@@ -1,0 +1,13 @@
+# ninja log v5
+5	1288	6819279680044461	CMakeFiles/GenerateCerificateGetterFunctions.dir/main.cpp.obj	76752008b718ecad
+1288	1576	6819279682865469	GenerateCerificateGetterFunctions.exe	2bd705a91729dfe3
+3	325	6819278493149871	CMakeFiles/GenerateCerificateGetterFunctions.dir/variables.cpp.obj	a3c13e0faf35980f
+3	501	6819280247162163	CMakeFiles/GenerateCerificateGetterFunctions.dir/main.cpp.obj	76752008b718ecad
+501	670	6819280248830207	GenerateCerificateGetterFunctions.exe	2bd705a91729dfe3
+0	23	0	clean	f79cb84a9874db96
+3	574	6819281590806407	CMakeFiles/GenerateCerificateGetterFunctions.dir/main.cpp.obj	76752008b718ecad
+574	781	6819281592847843	GenerateCerificateGetterFunctions.exe	2bd705a91729dfe3
+1	27	0	clean	f79cb84a9874db96
+3	520	6819282149562930	CMakeFiles/GenerateCerificateGetterFunctions.dir/main.cpp.obj	76752008b718ecad
+521	683	6819282151164560	GenerateCerificateGetterFunctions.exe	2bd705a91729dfe3
+0	27	0	clean	f79cb84a9874db96

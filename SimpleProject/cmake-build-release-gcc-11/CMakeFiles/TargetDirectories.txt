@@ -1,0 +1,5 @@
+/home/andtokm/DiskS/ProjectsUbuntu/CMake/SimpleProject/cmake-build-release-gcc-11/CMakeFiles/edit_cache.dir
+/home/andtokm/DiskS/ProjectsUbuntu/CMake/SimpleProject/cmake-build-release-gcc-11/CMakeFiles/rebuild_cache.dir
+/home/andtokm/DiskS/ProjectsUbuntu/CMake/SimpleProject/cmake-build-release-gcc-11/src/CMakeFiles/Application.dir
+/home/andtokm/DiskS/ProjectsUbuntu/CMake/SimpleProject/cmake-build-release-gcc-11/src/CMakeFiles/edit_cache.dir
+/home/andtokm/DiskS/ProjectsUbuntu/CMake/SimpleProject/cmake-build-release-gcc-11/src/CMakeFiles/rebuild_cache.dir

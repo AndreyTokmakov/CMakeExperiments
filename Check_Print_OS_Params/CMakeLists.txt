@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
+project(Check_Print_OS_Params)
+
+set(CMAKE_CXX_STANDARD 23)
+
+cmake_host_system_information(RESULT PRETTY_NAME QUERY DISTRIB_PRETTY_NAME)
+message(STATUS "PRETTY_NAME = ${PRETTY_NAME}\n")
+
+
+
+message(STATUS "CMAKE_SYSTEM_NAME: ${CMAKE_SYSTEM_NAME}")
+message(STATUS "CMAKE_HOST_LINUX: ${CMAKE_HOST_LINUX}")
+message(STATUS "CMAKE_HOST_SYSTEM_PROCESSOR: ${CMAKE_HOST_SYSTEM_PROCESSOR}")
+message(STATUS "CMAKE_SYSTEM_VERSION: ${CMAKE_SYSTEM_VERSION}")
+message(STATUS "CMAKE_HOST_SYSTEM: ${CMAKE_HOST_SYSTEM}")
+message(STATUS "CMAKE_HOST_SYSTEM_VERSION: ${CMAKE_HOST_SYSTEM_VERSION}")
+
+if (CMAKE_SYSTEM_NAME STREQUAL "Linux")
+	message(STATUS "IS_LINUX\n")
+endif()
+
+
+
+cmake_host_system_information(RESULT DISTRO QUERY DISTRIB_INFO)
+
+foreach(VAR IN LISTS DISTRO)
+  message(STATUS "${VAR}=`${${VAR}}`")
+endforeach()
+
+
+
+if(DISTRO_VERSION_ID MATCHES "20.05")
+	message(STATUS "*** OK ***")
+endif()

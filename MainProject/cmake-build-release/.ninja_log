@@ -1,0 +1,8 @@
+# ninja log v5
+312	350	1658855905635722400	MainProject	acd3d53c9e1a86af
+0	20	1658858016528360800	build.ninja	8c920b4ae65fd7d8
+1	279	1658855905565747500	CMakeFiles/MainProject.dir/main.cpp.o	dcfa1d899533da15
+1	312	1658855905598599200	CMakeFiles/MainProject.dir/Integer.cpp.o	14711c2db2acf953
+1	319	1658858095583367500	CMakeFiles/MainProject.dir/main.cpp.o	6cc7cc305f889604
+2	347	1658858095611361900	CMakeFiles/MainProject.dir/Integer.cpp.o	33dc2cd1e1d3f754
+347	385	1658858095648766700	MainProject	acd3d53c9e1a86af
