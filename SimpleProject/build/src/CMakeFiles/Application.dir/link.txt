@@ -1,1 +1,0 @@
-/usr/bin/g++-11  -O3 -DNDEBUG   CMakeFiles/Application.dir/main.cpp.o  -o Application 

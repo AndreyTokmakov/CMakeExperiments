@@ -1,3 +1,0 @@
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-release/CMakeFiles/MainProject.dir
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-release/CMakeFiles/edit_cache.dir
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/MainProject/cmake-build-release/CMakeFiles/rebuild_cache.dir

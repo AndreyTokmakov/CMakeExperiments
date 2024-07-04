@@ -1,2 +1,0 @@
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Check_Print_OS_Params/build/CMakeFiles/edit_cache.dir
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/Check_Print_OS_Params/build/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/ListFilesInDIr/build/CMakeFiles/FileListing.dir
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/ListFilesInDIr/build/CMakeFiles/edit_cache.dir
-/home/andtokm/DiskS/ProjectsUbuntu/CMakeExperiments/ListFilesInDIr/build/CMakeFiles/rebuild_cache.dir
