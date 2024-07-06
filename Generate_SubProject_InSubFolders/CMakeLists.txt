@@ -19,8 +19,9 @@ foreach (item ${RESULT_FOLDERS_LIST})
     if (${item} MATCHES "/CMakeLists.txt")
         get_filename_component(directory ${item} DIRECTORY)
 
-        message("item : ${item}")
-        message("dir  : ${directory}")
+        # message("item : ${item}")
+        # message("dir  : ${directory}")
+        add_subdirectory(${directory})
 
     endif()
 endforeach()
