@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.11)
 project(FileListing)
 
 set(CMAKE_CXX_STANDARD 23)
 
 
-message(STATUS "CMAKE_CURRENT_LIST_DIR: ${CMAKE_CURRENT_LIST_DIR}")
-message(STATUS "CMAKE_SOURCE_DIR      : ${CMAKE_SOURCE_DIR}")
+message("CMAKE_CURRENT_LIST_DIR: ${CMAKE_CURRENT_LIST_DIR}")
+message("CMAKE_SOURCE_DIR      : ${CMAKE_SOURCE_DIR}")
 
 
 file(GLOB TEST_DATA_FILES
@@ -15,23 +15,30 @@ file(GLOB TEST_DATA_FILES
 )
 
 
-message(STATUS "\nContent of the '${CMAKE_CURRENT_LIST_DIR}/test_files' folder:")
+message("\nContent of the '${CMAKE_CURRENT_LIST_DIR}/test_files' folder:")
 foreach (file ${TEST_DATA_FILES})
 
-    get_filename_component(filename_without_extenstion ${file} NAME_WE) # No extension
-    get_filename_component(filename_with_extenstion ${file} NAME)       # With extension
+    get_filename_component(filename_without_extenstion ${file} NAME_WE) # NAME_WE   = File name with neither the directory nor the longest extension
+    get_filename_component(filename_with_extenstion ${file} NAME)       # NAME      = File name without directory
+    get_filename_component(directory ${file} DIRECTORY)                 # DIRECTORY = Directory without file name
+    get_filename_component(extenstion ${file} EXT)                      # EXT       = File name longest extension (.b.c from d/a.b.c)
 
-    message(STATUS "\tfile    : ${file}")
-    message(STATUS "\tname 1  : ${filename_without_extenstion}")
-    message(STATUS "\tname 2  : ${filename_with_extenstion}")
+    # get_filename_component(name_nwl ${item} NAME_WLE ABSOLUTE)
+    # get_filename_component(extenstion ${item}  ABSOLUTE)
+    # get_filename_component(last_ext ${item} LAST_EXT ABSOLUTE)
+
+    message("\t file       : ${file}")
+    message("\t filename_without_extenstion : ${filename_without_extenstion}")
+    message("\t filename_with_extenstion    : ${filename_with_extenstion}")
+    message("\t extenstion                  : ${filename_with_extenstion}")
+    message("\t directory                   : ${directory}")
 
     file(READ ${file} content)
     # file(READ ${file} content HEX)  # Read as hex
 
-    message(STATUS "\tcontent : ${content}\n")
+    message("\n\t content    : ${content}\n")
 
 endforeach (file ${TEST_DATA_FILES})
-
 
 add_executable(${PROJECT_NAME}
         main.cpp
