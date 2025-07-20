@@ -12,6 +12,7 @@ FetchContent_Declare(googletest
     GIT_TAG v1.14.0
     GIT_SHALLOW ON
     GIT_PROGRESS ON
+    LOG_DOWNLOAD TRUE
 )
 
 FetchContent_MakeAvailable(googletest)
